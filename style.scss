@@ -1,0 +1,176 @@
+$blue:#103b5a;
+$grey:#F1F2F2;
+$blue2:#033d5b;
+
+
+.navbar{
+  min-height:88px;
+  background-color:white;
+  border-color:white;
+  font-size:17px;
+  font-family:"Helvetica-Light";
+}
+.news{
+
+.box{
+
+background-repeat:no-repeat;
+height: 255px;
+
+&:hover{
+.ramka{
+  opacity:0.7;
+}
+}
+
+}
+.ramka{
+
+background-color:$blue2;
+opacity:0;
+height:100%;
+color:white;
+font-family:Helvetica-Bold;
+font-size:25px;
+
+
+}
+
+}
+.topbar
+
+{
+ margin-top:-20px;
+  min-height:45px;
+  opacity:0.5;
+  background-color:$blue;
+  z-index:2;
+
+
+
+}
+
+.bar{
+.container{
+  width:100%;
+}
+}
+.firms{
+
+  z-index:3;
+  margin-top:-40px;
+  img{
+
+
+margin-right:20px;
+
+  }
+}
+.head{
+    height:194px;
+
+margin: 80px 30px -20px;
+
+}
+.barhead{
+
+background-color:white;
+color: $blue2;
+height:210px;
+
+h1{
+font-family:"Helvetica-Bold";
+margin-top:50px;
+  font-size:60px;
+  text-align:center;
+}
+
+}
+.banner{
+
+margin-top:103px;
+background-image:url("images/banner.png");
+height:705px;
+width:100%;
+font-family:"Helvetica-Bold";
+background-size:100% 100%;
+
+h1{
+margin-top:100px;
+margin-left:80px;
+color:white;
+  font-size:95px;
+
+
+}
+h2{
+  color:$blue;
+  font-size:60px;
+  margin-left:80px;
+}
+
+
+
+}
+.navbar-nav{
+
+
+
+li{
+
+  a{
+
+line-height:50px;
+
+  }
+}
+
+
+}
+.kolumna{
+
+text-align:center;
+
+
+  background-color:$grey;
+img{
+
+  width:100%;
+}
+h4{
+
+  font-family:"Helvetica-Bold";
+font-size:37px;
+  color:$blue2;
+}
+h5{
+  font-size:17px;
+  font-family:"Helvetica-Light";
+
+color:#000;
+}
+  &:hover{
+background-color:$blue2;
+h4{
+  color:white;
+}
+h5{
+  color:white;
+}
+
+  }
+}
+@font-face {
+
+font-family: "Helvetica-Light";
+
+src:url("fonts/Helvetica-Light.ttf");
+
+}
+@font-face {
+
+font-family: "Helvetica-Bold";
+
+src:url("fonts/Helvetica-Bold.ttf");
+
+}
