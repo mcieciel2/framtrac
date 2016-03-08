@@ -1,7 +1,9 @@
 $blue:#103b5a;
 $grey:#F1F2F2;
 $blue2:#033d5b;
+$bluebutton:#0071B6;
 
+@import "scss/font-awesome";
 
 .navbar{
   min-height:88px;
@@ -11,7 +13,10 @@ $blue2:#033d5b;
   font-family:"Helvetica-Light";
 }
 .news{
+button{
 
+  margin-top:50px;
+}
 .box{
 
 background-repeat:no-repeat;
@@ -49,11 +54,11 @@ font-size:25px;
 
 
 }
-
-.bar{
 .container{
   width:100%;
 }
+.bar{
+
 }
 .firms{
 
@@ -69,14 +74,14 @@ margin-right:20px;
 .head{
     height:194px;
 
-margin: 80px 30px -20px;
+margin: 80px 30px 0px;
 
 }
 .barhead{
 
 background-color:white;
 color: $blue2;
-height:210px;
+height:150px;
 
 h1{
 font-family:"Helvetica-Bold";
@@ -160,6 +165,124 @@ h5{
 
   }
 }
+.dealer{
+
+
+height:400px;
+background-color:$blue2;
+text-align:center;
+  color:white;
+i{
+
+    padding-top:100px;
+}
+h1{
+
+
+font-size:60px;
+font-family:Helvetica-Bold;
+
+
+
+}
+
+}
+.dostawca{
+
+  .col-lg-6 col-xs-6 col-md-6 col-sm-6{
+
+  padding:10px 10px 10px;
+  }
+.input-group{
+
+  width:100%;
+    margin-bottom:10px;
+
+
+}
+
+
+
+
+}
+input{
+
+  height:50px;
+
+}
+.szukaj{
+
+  background-color:#F8F8F9;
+}
+.szuk{
+
+margin-left:35%;
+margin-right:35%;
+
+}
+.kontakt{
+
+h4{
+
+  font-size:27px;
+  font-family:Helvetica-Bold;
+}
+h5{
+
+  font-size:17px;
+  font-family:Helvetica;
+}
+  h6{
+
+    font-family:Helvetica-Bold;
+  font-size:17px;
+  }
+  p{
+    font-family:Helvetica-Light;
+      font-size:17px;
+  }
+
+
+
+}
+footer{
+
+padding-top:40px;
+background-color:$blue2;
+height:344px;
+font-family:Helvetica-Light;
+font-size:11pt;
+color:white;
+.btn-default{
+
+  background-color:$bluebutton;
+  color:white;
+  border:0px;
+  font-family:Helvetica-Bold;
+  font-size:17pt;
+  border-radius:0px;
+  padding:15px 25px;
+}
+h5{
+text-align:center;
+  font-family:Helvetica;
+  font-size:11pt;
+}
+.footer{
+
+  margin-top:30px;
+  margin-bottom:20px;
+}
+.form-control{
+
+  background-color:transparent;
+  color:white;
+  font-family:Helvetica-Light;
+  font-size:14pt;
+width:100%;
+height:60px;
+}
+}
 @font-face {
 
 font-family: "Helvetica-Light";
@@ -172,5 +295,12 @@ src:url("fonts/Helvetica-Light.ttf");
 font-family: "Helvetica-Bold";
 
 src:url("fonts/Helvetica-Bold.ttf");
+
+}
+@font-face {
+
+font-family: "Helvetica";
+
+src:url("fonts/Helvetica.ttf");
 
 }

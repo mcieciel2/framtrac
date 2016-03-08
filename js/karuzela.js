@@ -2,7 +2,7 @@ $('#myCarousel').carousel({
   interval: 40000
 });
 
-$('.carousel .item').each(function(){
+$('.karuzela .carousel .item').each(function(){
   var next = $(this).next();
   if (!next.length) {
     next = $(this).siblings(':first');
