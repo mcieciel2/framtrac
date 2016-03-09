@@ -2,24 +2,89 @@ $blue:#103b5a;
 $grey:#F1F2F2;
 $blue2:#033d5b;
 $bluebutton:#0071B6;
+$red:#C9262D;
 
 @import "scss/font-awesome";
 
+
+
+
 .navbar{
-  min-height:88px;
+  min-height:100px;
   background-color:white;
   border-color:white;
-  font-size:17px;
+  font-size:17pt;
   font-family:"Helvetica-Light";
+  color:#4D4D4F;
+  span{
+    background-color:$blue2;
+    padding:6px;
+    color:white;
+  margin-right:-35px;
+
+  }
+
+  .glyphicon{
+    top:0px;
+  }
+  .dropdown-menu{
+font-size:15pt;
+min-width:0px;
+padding:0px;
+background-color:transparent;
+border:0px;
+  li>a{
+
+background-color:$blue;
+color:white;
+
+  }
+}
+  .btn-default{
+    width:100px;
+font-size:15pt;
+    padding:0px 0px 0px;
+    border:1px solid #000;
+    border-radius:0px;
+
+&:hover{
+
+  background-color:white;
+}
+  }
+}
+.navbar-right{
+line-height:55px;
+margin-top:20px;
+  margin-right:50px;
+}
+.pauza{
+
+  line-height:50px;
+  position: relative;
+display: block;
+padding: 10px 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+color:$grey;
 }
 .news{
 button{
 
+  width:150px;
+  border-radius:0px;
+  font-family:Helvetica-Light;
+  font-size:20pt;
+
   margin-top:50px;
+}
+p{
+  padding-top:100px;
 }
 .box{
 
 background-repeat:no-repeat;
+background-size:100% 100%;
 height: 255px;
 
 &:hover{
@@ -63,6 +128,7 @@ font-size:25px;
 .firms{
 
   z-index:3;
+  position:relative;
   margin-top:-40px;
   img{
 
@@ -91,9 +157,10 @@ margin-top:50px;
 }
 
 }
+
 .banner{
 
-margin-top:103px;
+margin-top:120px;
 background-image:url("images/banner.png");
 height:705px;
 width:100%;
@@ -104,13 +171,13 @@ h1{
 margin-top:100px;
 margin-left:80px;
 color:white;
-  font-size:95px;
+  font-size:95pt;
 
 
 }
 h2{
   color:$blue;
-  font-size:60px;
+  font-size:60pt;
   margin-left:80px;
 }
 
@@ -167,7 +234,7 @@ h5{
 }
 .dealer{
 
-
+margin-top:20px;
 height:400px;
 background-color:$blue2;
 text-align:center;
@@ -187,8 +254,19 @@ font-family:Helvetica-Bold;
 }
 
 }
+.butt{
+  width:250px;
+height:50px;
+font-family:Helvetica-Light;
+color:white;
+border-radius:0px;
+background-color:$red;
+}
 .dostawca{
 
+
+margin-right:5%;
+margin-left:5%;
   .col-lg-6 col-xs-6 col-md-6 col-sm-6{
 
   padding:10px 10px 10px;
@@ -221,7 +299,11 @@ margin-right:35%;
 
 }
 .kontakt{
-
+margin-left:5%;
+margin-right:5%;
+butt{
+  width:100%;
+}
 h4{
 
   font-size:27px;
@@ -249,7 +331,7 @@ footer{
 
 padding-top:40px;
 background-color:$blue2;
-height:344px;
+min-height:345px;
 font-family:Helvetica-Light;
 font-size:11pt;
 color:white;
